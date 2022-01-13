@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    font-family: sans-serif;
+}
+ body {
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+.container {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 45px;
+    background-color: #df8c8c;
+}
+
+/* Screen */
+.screen {
+    margin: 0;
+    color: white;
+    font-weight: 100;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px 0px;
+}
+.screen span {
+    display: inline-block;
+    width: 85px;
+    text-align: center;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.buttons button {
+    flex: 1;
+    font-size: 1.0rem;
+    margin: 0 5px;
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.buttons button:hover {
+    background: white;
+    color: #df8c8c;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
